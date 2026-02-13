@@ -1,0 +1,310 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header */
+header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.gambar {
+    width: 28rem;
+} 
+
+header nav ul li a i {
+    margin-right: 5px;
+}
+
+.eskul-card {
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #e7aab5;
+    transition: 0.3s;
+}
+
+.eskul-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.eskul-content {
+    padding: 20px;
+}
+
+.eskul-content h5 {
+    color: #c74a6a;
+    font-weight: bold;
+}
+
+.eskul-content p {
+    font-size: 0.9rem;
+    color: #7a4b57;
+}
+
+.eskul-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.ct-r {
+    background-color: #FCC8D1;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.hero-box h1,
+.hero-box p {
+    color: #D14D72;
+}
+
+
+#beranda {
+    margin-top: 100px;
+}
+
+/* Pilih Eskul Section */
+.pilih-eskul {
+    padding: 50px 0;
+}
+
+.detail-eskul img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+}
+
+.detail-content {
+    background-color: #e4aab4;
+    padding: 80px 40px;   
+    min-height: 350px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.detail-content h2 {
+    color: #c74a6a;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.detail-content p {
+    max-width: 900px;
+    margin: auto;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+footer h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+footer p i {
+    margin-right: 5px;
+}
+
+.jadwal-section {
+    background-color: #f4f4f4;
+}
+
+.judul-jadwal {
+    color: #c74a6a;
+    font-size: 2.8rem;
+}
+
+.sub-jadwal {
+    color: #c74a6a;
+    font-size: 1.1rem;
+}
+
+.jadwal-box {
+    background-color: #e4aab4;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.jadwal-header {
+    background-color: #c74a6a;
+    color: #5b0f22;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1.5fr;
+    padding: 20px;
+    font-size: 1.3rem;
+}
+
+.jadwal-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1.5fr;
+    padding: 20px;
+    border-top: 1px solid #c86a82;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.jadwal-row strong {
+    font-weight: 700;
+}
+
+.minggu {
+    font-style: italic;
+}
+
+.tidak-jadwal {
+    grid-column: span 3;
+    text-align: left;
+}
+
+.galeri {
+    background-color: #ffffff;
+}
+
+.galeri h2 {
+    color: #c74a6a;
+}
+
+.galeri-box {
+    border-radius: 25px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.galeri-box img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.galeri-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.gabung {
+    background-color: #f5f5f5;
+}
+
+.judul-gabung {
+    color: #c74a6a;
+    font-size: 2.7rem;
+}
+
+.sub-gabung {
+    color: #c74a6a;
+    font-size: 1.1rem;
+}
+
+.box-kiri h3 {
+    color: #6a1e2f; }
+
+.box-kiri h5 {
+    color: white;
+    font-weight: 600;
+}
+
+.box-kiri p { 
+    color: #6a1e2f; 
+    font-size: 0.9rem; }
+
+.box-kiri {
+    background-color: #e4aab4;
+    border-radius: 30px;
+    color: white;
+}
+
+.box-kanan {
+    background-color: #e9d9dc;
+    border-radius: 30px;
+}
+
+.input-custom {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 20px;
+}
+
+.input-custom::placeholder {
+    color: #6a1e2f;
+}
+
+.textarea-custom {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 20px;
+    height: 120px;
+}
+
+.textarea-custom::placeholder {
+    color: #6a1e2f;
+}
+
+.footer-custom {
+    background-color: #7a0f25;
+    color: white;
+}
+
+.footer-custom h3 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-custom p {
+    font-size: 0.95rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 45px;
+}
